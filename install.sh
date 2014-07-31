@@ -74,9 +74,9 @@ then
 			mkdir ~/Work/programs
 		fi
 
-		tar -xfv programs/jboss.tar.gz -C  ~/Work/programs
+		tar -xf ./programs/jboss.tar.gz -C  ~/Work/programs
 		ln -s ~/Work/programs/jboss-4.2.3.GA ~/Work/programs/jboss
-		mv programs/jboss-libs/* ~/Work/programs/jboss-4.2.3.GA/server/default/lib/
+		cp programs/jboss-libs/* ~/Work/programs/jboss-4.2.3.GA/server/default/lib
 	
 	fi
 fi
@@ -100,7 +100,7 @@ then
 			mkdir ~/Work/programs
 		fi
 
-		tar -xfv programs/maven.tar.gz -C ~/Work/programs
+		tar -xf ./programs/maven.tar.gz -C ~/Work/programs
 		ln -s ~/Work/programs/maven-1.0.2 ~/Work/programs/maven
 	
 	fi
