@@ -47,7 +47,7 @@ then
 		touch ~/.bashrc_mdarte
 		echo "#MDArte Configurations\n" >> ~/.bashrc_mdarte
 		echo "export MAVEN_OPTS=-Xmx1024m\n" >> ~/.bashrc_mdarte
-		echo "export JAVA_HOME=/usr/lib/jvm/java-6-sun/\n" >> ~/.bashrc_mdarte
+		echo "export JAVA_HOME=/usr/lib/jvm/java-6-oracle/\n" >> ~/.bashrc_mdarte
 
 		echo "if [ -d ~/Work/programs/maven ] ; then\n  export MAVEN_HOME=~/Work/programs/maven\nfi\n" >> ~/.bashrc_mdarte
 		echo "if [ -d ~/Work/programs/maven ] ; then\n export PATH=\$PATH:~/Work/programs/maven/bin\nfi\n" >> ~/.bashrc_mdarte
